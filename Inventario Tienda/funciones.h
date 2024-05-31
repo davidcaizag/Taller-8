@@ -1,5 +1,5 @@
-#ifndef INVENTARIO_H
-#define INVENTARIO_H
+#ifndef FUNCIONES_H_INCLUDED
+#define FUNCIONES_H_INCLUDED
 
 typedef struct {
     char nombre[50];
@@ -13,4 +13,4 @@ void editarProducto(Producto *productos, int numProductos);
 void eliminarProducto(Producto **productos, int *numProductos);
 void listarProductos(Producto *productos, int numProductos);
 
-#endif
+#endif // FUNCIONES_H_INCLUDED
